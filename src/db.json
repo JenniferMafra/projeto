@@ -1,0 +1,14 @@
+{
+  "Filmes": [
+    {
+         "id": "1", 
+    "titulo": "a muralha",
+     "duração": "140 minutos"
+     },
+    {
+         "id": "2",
+     "titulo": "outro filme",
+      "duração": "100 minutos" 
+    }
+  ]
+}
