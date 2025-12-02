@@ -1,14 +1,28 @@
 {
   "Filmes": [
     {
-         "id": "1", 
-    "titulo": "a muralha",
-     "duração": "140 minutos"
-     },
+      "id": "1", 
+      "titulo": "a muralha",
+      "duração": "140 minutos",
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg"
+    },
     {
-         "id": "2",
-     "titulo": "outro filme",
-      "duração": "100 minutos" 
+      "id": "2",
+      "titulo": "outro filme",
+      "duração": "100 minutos" ,
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg"
+    },
+    {
+      "id": "3",
+      "titulo": "outro filme 2",
+      "duração": "110 minutos" ,
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg"
+    }, 
+    {
+      "id": "4",
+      "titulo": "outro filme 3",
+      "duração": "90 minutos" ,
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg"
     }
   ]
 }

@@ -1,15 +1,14 @@
 import { useEffect, useState } from "react";
 import { UserCard } from "../../components/card";
+import { Container } from "./style";
+import { useNavigate } from "react-router-dom";
 
 export function Catalogo(){
     const API_URL = 'http://localhost:3000/Filmes'
 
+    const navigate =useNavigate()
 
-/*
-    for (let i = 0; i < data.length; i++) {
-       console.log(data[i])
-    }}
-*/
+
   const [userList, setUserList] = useState([]);
 
   useEffect(() => {
@@ -22,32 +21,35 @@ export function Catalogo(){
         console.log("Erro ao buscar os filmes ", error);
       }
     }
-
     pegarFilmes();
   }, []);
-/*
 
-   useEffect(() => {
-    async function PegarId() {
+
+    async function PegarId(id) {
       try {
-        const res = await fetch(`http://localhost:3000/Filmes/1`);
+        const res = await fetch(`http://localhost:3000/Filmes/${id}`);
         const data = await res.json();
-
         setUserList(data);
       } catch (error) {
-        console.log("Erro ao buscar os filmes ", error);
+        console.log("Erro ao buscar filme", error);
       }
+     
     }
 
-    PegarId();
-  }, []);
-*/
-  return (
-    <div>
-      {userList.map((user) => (
-        <UserCard titulo={user.titulo} duração={user.duração} />
-      ))}
-    </div>
+     function Abrirfilme(id){
+        navigate("/filme/:id")
+      }
+    
 
+  return (
+      <Container>
+         {userList.map((user) => (
+          <div key={user.id} onClick={()=> Abrirfilme(user.id)}>
+            <UserCard titulo={user.titulo} duração={user.duração} imagem={user.imagem}/>
+          </div>
+      ))}
+     
+      </Container>
+      
   );
 }
