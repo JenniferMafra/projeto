@@ -7,8 +7,8 @@ export const router = createBrowserRouter([
     {
         path:'/',
         children:[
-            {path:'/catalogo', element:<Catalogo/>},
-            {path:'/filme/:id', element:<FilmeId/>},
+            {path:'catalogo', element:<Catalogo/>},
+            {path:'filme/:id', element:<FilmeId/>},
         ]
     },
     {

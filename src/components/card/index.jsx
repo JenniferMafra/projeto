@@ -1,13 +1,12 @@
 import { Container } from "./style";
-import eradogelo from "../../assets/Eradogelo.webp"
 
-export function UserCard({ titulo, duração , imagem}) {
+export function UserCard({ titulo, duracao , imagem}) {
   
   return (
-    <Container style={{ backgroundImage: `url(${imagem})` }}>
-
+    <Container>
+      <img src={imagem} alt=""  />
       <h1>Nome: {titulo}</h1>
-      <h1>Email: {duração}</h1>
+      <h1>Duração: {duracao}</h1>
     </Container>
   );
 }

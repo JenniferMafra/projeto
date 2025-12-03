@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    background-color: rgba(204, 34, 34, 0.315);
+    background-color:#1046f797;
     color:black;
     width: 90vw;
     padding:30px;
@@ -25,18 +25,18 @@ export const LogoContainer = styled.div`
     img {
         height: 70px;
         width: 70px;
+        border-radius:30px;
     }
 `
 
 export const NavContainer = styled.div`
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     gap: 50px;
 
     :last-child {
         &:hover{
-            background-color: rgba(255, 176, 176, 0.4);
+            background-color: rgba(5, 141, 245, 0.493);
         }
     }
     
@@ -46,7 +46,7 @@ export const LinksNavigation = styled.button`
     padding: 10px;
     cursor: pointer;
     border:none;
-    background-color: rgba(80, 32, 32, 0.315);
+    background-color: rgba(12, 36, 193, 0.315);
     border-radius:10px;
 
     transition: border-bottom-color ;
@@ -58,6 +58,5 @@ export const LinksNavigation = styled.button`
 
     &:hover {
         border-bottom: 1px solid black;
-        background-color: rgba(236, 39, 39, 0.74);
     }
 `

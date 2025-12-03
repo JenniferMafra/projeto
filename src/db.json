@@ -1,28 +1,60 @@
 {
-  "Filmes": [
+  "filmes": [
     {
       "id": "1", 
       "titulo": "a muralha",
-      "duração": "140 minutos",
-      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg"
+      "duracao": "140 minutos",
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+      "descricao":"Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
     },
     {
       "id": "2",
       "titulo": "outro filme",
-      "duração": "100 minutos" ,
-      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg"
+      "duracao": "100 minutos" ,
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+       "descricao":"Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
     },
     {
       "id": "3",
       "titulo": "outro filme 2",
-      "duração": "110 minutos" ,
-      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg"
+      "duracao": "110 minutos" ,
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+       "descricao":"Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
     }, 
     {
       "id": "4",
       "titulo": "outro filme 3",
-      "duração": "90 minutos" ,
-      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg"
+      "duracao": "90 minutos" ,
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+       "descricao":"Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
+    },
+    {
+      "id": "5", 
+      "titulo": "a muralha",
+      "duracao": "140 minutos",
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+      "descricao":"Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
+    },
+    {
+      "id": "6",
+      "titulo": "outro filme",
+      "duracao": "100 minutos" ,
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+       "descricao":"Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
+    },
+    {
+      "id": "7",
+      "titulo": "outro filme 2",
+      "duracao": "110 minutos" ,
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+       "descricao":"Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
+    }, 
+    {
+      "id": "8",
+      "titulo": "outro filme 3",
+      "duracao": "90 minutos" ,
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+       "descricao":"Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
     }
   ]
 }

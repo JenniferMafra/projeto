@@ -3,14 +3,18 @@ import styled from "styled-components";
 export const Container = styled.div`
   font-size: 10px;
 
-  color:#130f0f;
+  color:#254aee;
+  width: auto;
 
-  width: 300px;
-  height: 300px;
-  margin:50px;
-  padding:50px;
+  height: auto;
+  margin-top:200px;
+  margin-right:40px;
 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  
+  img{
+    height:400px;
+    width:auto;
+  object-fit:cover;
+ 
+  }
 `
