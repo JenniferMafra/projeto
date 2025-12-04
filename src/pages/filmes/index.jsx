@@ -37,6 +37,12 @@ export function FilmeId(){
           }
       } 
 
+       function AtualizarFilm(){
+        navigate(`/EditarFilme`, {
+                state: { id: id }
+            })
+      }
+
 
       if(!filme){
         return(
@@ -55,6 +61,7 @@ export function FilmeId(){
           </div>
         </Container>
         <button onClick={()=> deletarFilme(id)}>Deletar filme</button>
+        <button  onClick={()=> AtualizarFilm(id) }>Atualizar filme</button>
         <ButtonF></ButtonF>
         </Div>
       

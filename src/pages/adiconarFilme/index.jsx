@@ -1,5 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { HeaderP } from "../../components/header";
+import { ButtonF } from "../../components/button";
+import { Container, Container2 } from "./styled";
 
 export function AdicionarFilme() {
 
@@ -37,10 +40,10 @@ export function AdicionarFilme() {
   }
 
   return (
-    <>
-      <HeaderP/>
-        <div>
-          <h2><strong>Adicionar Filme</strong></h2>
+    <Container>
+       <HeaderP/>
+        <Container2>
+           <h2><strong>Adicionar Filme</strong></h2>
 
           <form onSubmit={adicionarFilme} >
 
@@ -51,6 +54,7 @@ export function AdicionarFilme() {
                 onChange={e => setTitulo(e.target.value)}
                 required
               />
+              
               <textarea
               placeholder="Descrição"
                 value={descricao}
@@ -64,7 +68,7 @@ export function AdicionarFilme() {
                 onChange={e => setDuracao(e.target.value)}
                 required
               />
-              
+    
               <input 
               placeholder="URL da capa do filme"
                 type="text"
@@ -72,12 +76,14 @@ export function AdicionarFilme() {
                 onChange={e => setImagem(e.target.value)}
                 required
               />
+      
 
             <button type="submit">Adicionar Filme</button>
           </form>
-        </div>
+        </Container2>
 
       <ButtonF/>
-    </>
+    </Container>
+     
   );
 }

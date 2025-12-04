@@ -1,111 +1,101 @@
-import { useState, useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useState } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+import { HeaderP } from "../../components/header";
+import { ButtonF } from "../../components/button";
+import { Container, Container2 } from "./styled";
 
 export function EditarFilme() {
-  const { id } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
 
-  const [titulo, setTitulo] = useState("");
-  const [descricao, setDescricao] = useState("");
-  const [duracao, setDuracao] = useState("");
-  const [imagem, setImagem] = useState("");
-  const [carregando, setCarregando] = useState(true);
+  const [titulo, setTitulo] = useState('');
+  const [descricao, setDescricao] = useState('');
+  const [duracao, setDuracao] = useState('');
+  const [imagem, setImagem] = useState('');
 
-  useEffect(() => {
-    async function carregarFilme() {
-      try {
-        const resposta = await fetch(`http://localhost:3000/filmes/${id}`);
-        const filme = await resposta.json();
+  function IrCatalogo(){
+    navigate('/catalogo')
+  }
 
-        setTitulo(filme.titulo);
-        setDescricao(filme.descricao);
-        setDuracao(filme.duracao);
-        setImagem(filme.imagem);
-        setCarregando(false);
-      } catch (error) {
-        console.log("Erro ao carregar filme: ", error);
-      }
-    }
+  async function atualizarFilme(id) {
+   
 
-    carregarFilme();
-  }, [id]);
-
-  async function atualizarFilme(e) {
-    e.preventDefault();
-
-    const filmeAtualizado = {
+    const newfilme = {
       titulo,
       descricao,
       duracao,
-      imagem
-    };
+      imagem,
+    }
 
     try {
-      await fetch(`http://localhost:3000/filmes/${id}`, {
-        method: "PUT",
+      const res = await fetch(`http://localhost:3000/filmes/${id}`, {
+        method: 'PUT',
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify(filmeAtualizado)
-      });
-
-      navigate("/catalogo"); 
-
+        body: JSON.stringify(newfilme)
+      }); 
+      navigate('/catalogo')
+       
     } catch (error) {
-      console.log("Erro ao atualizar filme: ", error);
-    }
+      console.log("Erro ao atualizar o filme ", error);
+    } 
   }
 
-  if (carregando) {
-    return <p>Carregand...</p>;
-  }
+
 
   return (
-    <>
-      <HeaderP/>
+    <Container>
+      <HeaderP />
 
-        <div >
-          <h2>Editar Filme</h2>
+      <Container2>
+        <h2>Editar Filme</h2>
 
-          <form onSubmit={atualizarFilme} >
+        <form onSubmit={() => atualizarFilme(location.state.id)} >
 
-      
-              <input 
-              placeholder="Titulo do filme"
-                type="text"
-                value={titulo}
-                onChange={e => setTitulo(e.target.value)}
-                required
-              />
+          <input
+            placeholder="Titulo do filme"
+            type="text"
+            value={titulo}
+            onChange={e => setTitulo(e.target.value)}
+            required
+          />
+
+
+          <textarea
+            placeholder="Descrição"
+            value={descricao}
+            onChange={e => setDescricao(e.target.value)}
+            required
+          >
+          </textarea>
+
+          <input
+            placeholder="Duração"
+            type="text"
+            value={duracao}
+            onChange={e => setDuracao(e.target.value)}
+            required
+          />
+
+          <input
+            placeholder="Url capa do filme"
+            type="text"
+            value={imagem}
+            onChange={e => setImagem(e.target.value)}
+            required
+          />
+
+
+          <button type="submit">Salvar Alterações</button>
           
-              
-              <textarea
-              placeholder="Descrição"
-                value={descricao}
-                onChange={e => setDescricao(e.target.value)}
-                required
-              ></textarea>
-            
-              <input 
-              placeholder="Duração"
-                type="text"
-                value={duracao}
-                onChange={e => setDuracao(e.target.value)}
-                required
-              />
-            
-              <input 
-              placeholder="Url capa do filme"
-                type="text"
-                value={imagem}
-                onChange={e => setImagem(e.target.value)}
-                required
-              />
-            
+        </form>
+        <button onClick={IrCatalogo}>Voltar para catalogo</button>
 
-            <button type="submit">Salvar Alterações</button>
-          </form>
-        </div>
-      <ButtonF/>
-  </>
-  );}
+      </Container2>
+
+      <ButtonF />
+    </Container>
+
+  );
+}
