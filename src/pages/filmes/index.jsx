@@ -59,9 +59,9 @@ export function FilmeId(){
             <img src={filme.imagem} alt="" />
         <h2><strong>{filme.titulo}</strong> <br></br><br></br>Sinopse:<br></br>{filme.descricao}<br></br><br></br><p>Duração:{filme.duracao}</p></h2>
           </div>
+           <button onClick={()=> deletarFilme(id)}>Deletar filme</button>
+         <button  onClick={()=> AtualizarFilm(id) }>Atualizar filme</button>
         </Container>
-        <button onClick={()=> deletarFilme(id)}>Deletar filme</button>
-        <button  onClick={()=> AtualizarFilm(id) }>Atualizar filme</button>
         <ButtonF></ButtonF>
         </Div>
       

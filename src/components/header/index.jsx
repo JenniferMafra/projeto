@@ -10,6 +10,10 @@ export function HeaderP() {
         navigate('/erro')
     }
 
+    function IrCatalogo(){
+    navigate('/catalogo')
+  }
+
     return (
         <>
          <Container id="page">
@@ -18,6 +22,7 @@ export function HeaderP() {
                 <h1>Catalogo de filmes</h1>
             </LogoContainer>
              <NavContainer>
+                <LinksNavigation onClick={IrCatalogo}>Ir para catalogo</LinksNavigation>
                   <LinksNavigation onClick={ClicouBotão}>Reclamações<SignOutIcon size={16} /></LinksNavigation>
             
             </NavContainer>

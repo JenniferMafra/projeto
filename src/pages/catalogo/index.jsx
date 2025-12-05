@@ -43,7 +43,7 @@ export function Catalogo(){
             <UserCard titulo={filme.titulo} duracao={filme.duracao} imagem={filme.imagem}/>
           </div>
       ))}
-      <button onClick={() => AdicionarFilme()}>Adicionar um novo filme</button>
+      <button id="botao" onClick={() => AdicionarFilme()}>Adicionar um novo filme</button>
      <ButtonF></ButtonF>
       </Container>
       

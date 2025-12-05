@@ -25,8 +25,18 @@ p{
 
     font-size:15px;
 }
+button{
+    margin-top:10px;
+    margin-right:3px;
+    height:50px;
+    width:100px;
+    text-align:center;
+    cursor:pointer;
+    color:#1046f7;
+}
 `
 export const Div= styled.div`
 display:flex;
 justify-content:center;
+
 `

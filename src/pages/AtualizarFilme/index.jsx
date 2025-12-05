@@ -13,9 +13,7 @@ export function EditarFilme() {
   const [duracao, setDuracao] = useState('');
   const [imagem, setImagem] = useState('');
 
-  function IrCatalogo(){
-    navigate('/catalogo')
-  }
+  
 
   async function atualizarFilme(id) {
    
@@ -90,7 +88,7 @@ export function EditarFilme() {
           <button type="submit">Salvar Alterações</button>
           
         </form>
-        <button onClick={IrCatalogo}>Voltar para catalogo</button>
+        
 
       </Container2>
 
