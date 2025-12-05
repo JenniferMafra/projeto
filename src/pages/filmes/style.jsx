@@ -34,6 +34,7 @@ button{
     cursor:pointer;
     color:#1046f7;
 }
+
 `
 export const Div= styled.div`
 display:flex;
