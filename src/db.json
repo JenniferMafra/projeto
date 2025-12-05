@@ -1,67 +1,108 @@
 {
   "filmes": [
-    {
-      "id": "0d97",
-      "titulo": "era das formigas",
-      "descricao": "uma sxjschsajnasxnmjsdwjdhxanxmbzcjqwhdjsb skcafue",
-      "duracao": "120 minutos",
-      "imagem": "https://image.tmdb.org/t/p/original/yiLqv1gwBENjbqTAdPxW4LhX6aA.jpg"
-    },
-    {
-      "id": "0d5b",
-      "titulo": "era formiha 2",
-      "descricao": "fdjvejndfjkwefkjncirnh rehker",
-      "duracao": "200 minutos",
-      "imagem": "https://image.tmdb.org/t/p/original/yiLqv1gwBENjbqTAdPxW4LhX6aA.jpg"
-    },
-    {
-      "id": "b4c4",
-      "titulo": "americana",
-      "descricao": "ulyima eu te matoo",
-      "duracao": "2000horas",
-      "imagem": "https://th.bing.com/th/id/R.1a29b4fbbaaa0294e3e04eed02ade21e?rik=ua3Z%2bwkorghNiQ&pid=ImgRaw&r=0"
-    },
-    {
-      "id": "1",
-      "titulo": "era das formigas",
-      "descricao": "uma sxjschsajnasxnmjsdwjdhxanxmbzcjqwhdjsb skcafue",
-      "duracao": "120 minutos",
-      "imagem": "https://image.tmdb.org/t/p/original/yiLqv1gwBENjbqTAdPxW4LhX6aA.jpg"
+     {
+      "id": "1", 
+      "titulo": "O poderoso chefão",
+      "duracao": "175 minutos" ,
+      "descricao": "O poderoso chefão é um filme de 1972 dirigido por Francis Ford Coppola, baseado no romance de Mario Puzo. O filme narra a história da família mafiosa Corleone, liderada por Vito Corleone (interpretado por Marlon Brando), e seu filho Michael Corleone (interpretado por Al Pacino), que relutantemente se envolve nos negócios da família. O filme explora temas como poder, lealdade, traição e a complexidade das relações familiares dentro do contexto do crime organizado nos Estados Unidos.",
+      "imagem": "https://th.bing.com/th/id/R.4b10e77ade9fced97748d76f306e1cea?rik=EBZvvGFTOwLXGQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-o1P1wBaucC4%2fUGURDxZ45WI%2fAAAAAAAAAkg%2f3OkEH29WmPE%2fs1600%2f01.jpg&ehk=310%2bPbZbRGCx%2fOkBVOFMBEopdaq85pm3NYGONEt3EKw%3d&risl=&pid=ImgRaw&r=0",
+      "Teaser": "SaHZHU-44XA"
+    
     },
     {
       "id": "2",
-      "titulo": "era formiha 2",
-      "descricao": "fdjvejndfjkwefkjncirnh rehker",
-      "duracao": "200 minutos",
-      "imagem": "https://image.tmdb.org/t/p/original/yiLqv1gwBENjbqTAdPxW4LhX6aA.jpg"
+      "titulo": "O exterminador do futuro",
+      "duracao": "107 minutos" ,
+      "descricao": "O Exterminador do Futuro é um filme de ficção científica e ação dirigido por James Cameron, lançado em 1984. A trama gira em torno de um ciborgue assassino, conhecido como Exterminador (interpretado por Arnold Schwarzenegger), que é enviado do futuro para matar Sarah Connor (interpretada por Linda Hamilton), uma jovem cujo filho ainda não nascido se tornará o líder da resistência humana contra as máquinas em um futuro apocalíptico. Para protegê-la, um soldado humano chamado Kyle Reese (interpretado por Michael Biehn) também é enviado do futuro. O filme explora temas como inteligência artificial, destino e a luta pela sobrevivência da humanidade.",
+      "imagem": "https://www.cafecomfilme.com.br/media/k2/items/cache/aac68d5be57c1b8af5efed09e2ce8bc2_XL.jpg?t=20170219_011955",
+      "Teaser": "8Btq9PuwSxc"
     },
     {
       "id": "3",
-      "titulo": "americana",
-      "descricao": "ulyima eu te matoo",
-      "duracao": "2000horas",
-      "imagem": "https://th.bing.com/th/id/R.1a29b4fbbaaa0294e3e04eed02ade21e?rik=ua3Z%2bwkorghNiQ&pid=ImgRaw&r=0"
-    },
+      "titulo": "A era do gelo",
+      "duracao": "81 minutos" ,
+      "descricao": "A Era do Gelo é um filme de animação lançado em 2002, dirigido por Chris Wedge e Carlos Saldanha. A história se passa durante a era glacial e segue um grupo de animais pré-históricos que embarcam em uma jornada para devolver um bebê humano perdido à sua tribo. O grupo é composto por Manny, um mamute mal-humorado; Sid, uma preguiça desajeitada; e Diego, um tigre dente-de-sabre inicialmente hostil. Ao longo do caminho, eles enfrentam vários desafios e desenvolvem uma amizade improvável. O filme combina humor, aventura e temas de amizade e família.",
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+      "Teaser": "LY1xh_9zNfg"
+    }, 
     {
       "id": "4",
-      "titulo": "era das formigas",
-      "descricao": "uma sxjschsajnasxnmjsdwjdhxanxmbzcjqwhdjsb skcafue",
-      "duracao": "120 minutos",
-      "imagem": "https://image.tmdb.org/t/p/original/yiLqv1gwBENjbqTAdPxW4LhX6aA.jpg"
+      "titulo": "O exorcista",
+      "duracao": "122 minutos" ,
+      "descricao": "O Exorcista é um filme de terror lançado em 1973, dirigido por William Friedkin e baseado no romance de William Peter Blatty. A trama gira em torno de uma jovem garota chamada Regan MacNeil (interpretada por Linda Blair), que começa a exibir comportamentos estranhos e perturbadores, levando sua mãe, Chris MacNeil (interpretada por Ellen Burstyn), a buscar ajuda médica e espiritual. Após várias tentativas fracassadas de tratamento, um padre experiente em exorcismos, o Padre Merrin (interpretado por Max von Sydow), é chamado para confrontar a entidade demoníaca que possui Regan. O filme é conhecido por suas cenas icônicas e efeitos especiais inovadores para a época, explorando temas de fé, possessão e o confronto entre o bem e o mal.",  
+      "imagem": "https://es.web.img3.acsta.net/pictures/23/08/30/12/24/1331915.jpg",
+      "Teaser": "4x6a6igB1AQ"
     },
     {
       "id": "5",
-      "titulo": "era formiha 2",
-      "descricao": "fdjvejndfjkwefkjncirnh rehker",
-      "duracao": "200 minutos",
-      "imagem": "https://image.tmdb.org/t/p/original/yiLqv1gwBENjbqTAdPxW4LhX6aA.jpg"
+      "titulo": "Interestelar",
+      "duracao": "169 minutos" ,
+      "descricao": "Interestelar é um filme de ficção científica dirigido por Christopher Nolan, lançado em 2014. A trama se passa em um futuro próximo, onde a Terra está enfrentando uma crise ambiental que ameaça a sobrevivência da humanidade. Um grupo de astronautas, liderado por Cooper (interpretado por Matthew McConaughey), embarca em uma missão através de um buraco de minhoca em busca de um novo lar para a humanidade. O filme explora temas como amor, sacrifício, relatividade do tempo e a conexão entre pais e filhos, enquanto apresenta visuais impressionantes e conceitos científicos complexos.",
+      "imagem": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/297acd129204217.616629e21fe76.png",
+      "Teaser": "i6avfCqKcQo"
     },
     {
       "id": "6",
-      "titulo": "americana",
-      "descricao": "ulyima eu te matoo",
-      "duracao": "2000horas",
-      "imagem": "https://th.bing.com/th/id/R.1a29b4fbbaaa0294e3e04eed02ade21e?rik=ua3Z%2bwkorghNiQ&pid=ImgRaw&r=0"
+      "titulo": "outro filme 3",
+      "duracao": "90 minutos",
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+      "descricao": "Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
+    },
+    {
+      "id": "7",
+      "titulo": "outro filme 3",
+      "duracao": "90 minutos",
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+      "descricao": "Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
+    },
+    {
+      "id": "8",
+      "titulo": "outro filme 3",
+      "duracao": "90 minutos",
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+      "descricao": "Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
+    },
+    {
+      "id": "9",
+      "titulo": "outro filme 3",
+      "duracao": "90 minutos",
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+      "descricao": "Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
+    },
+    {
+      "id": "10",
+      "titulo": "outro filme 3",
+      "duracao": "90 minutos",
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+      "descricao": "Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
+    },
+    {
+      "id": "11",
+      "titulo": "outro filme 3",
+      "duracao": "90 minutos",
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+      "descricao": "Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
+    },
+    {
+      "id": "12",
+      "titulo": "outro filme 3",
+      "duracao": "90 minutos",
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+      "descricao": "Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
+    },
+    {
+      "id": "13",
+      "titulo": "outro filme 3",
+      "duracao": "90 minutos",
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+      "descricao": "Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
+    },
+    {
+      "id": "14",
+      "titulo": "outro filme 3",
+      "duracao": "90 minutos",
+      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
+      "descricao": "Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
     }
   ]
 }
