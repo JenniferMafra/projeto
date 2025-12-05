@@ -77,7 +77,6 @@ export function AdicionarFilme() {
                 required
               />
       
-
             <button type="submit">Adicionar Filme</button>
           </form>
         </Container2>

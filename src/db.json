@@ -1,13 +1,6 @@
 {
   "filmes": [
     {
-      "id": "10",
-      "titulo": "outro filme 3",
-      "duracao": "90 minutos",
-      "imagem": "https://image.tmdb.org/t/p/w500/A2NR4rJdD6bIVE61T7rhHxrrGvv.jpg",
-      "descricao": "Durante o período Pleistoceno, um esquilo dente-de-sabre chamado Scrat tenta encontrar um lugar seguro para guardar sua única e preciosa bolota; eventualmente, quando Scrat tenta enterrá-la no chão ele causa uma grande rachadura no solo que se estende por quilômetros antes de desencadear numa grande avalanche que quase o esmaga; ele consegue escapar, mas é pisado por uma manada de animais pré-históricos migrando para o sul a fim de escapar da próxima era do gelo"
-    },
-    {
       "id": "0d97",
       "titulo": "era das formigas",
       "descricao": "uma sxjschsajnasxnmjsdwjdhxanxmbzcjqwhdjsb skcafue",
@@ -23,6 +16,48 @@
     },
     {
       "id": "b4c4",
+      "titulo": "americana",
+      "descricao": "ulyima eu te matoo",
+      "duracao": "2000horas",
+      "imagem": "https://th.bing.com/th/id/R.1a29b4fbbaaa0294e3e04eed02ade21e?rik=ua3Z%2bwkorghNiQ&pid=ImgRaw&r=0"
+    },
+    {
+      "id": "1",
+      "titulo": "era das formigas",
+      "descricao": "uma sxjschsajnasxnmjsdwjdhxanxmbzcjqwhdjsb skcafue",
+      "duracao": "120 minutos",
+      "imagem": "https://image.tmdb.org/t/p/original/yiLqv1gwBENjbqTAdPxW4LhX6aA.jpg"
+    },
+    {
+      "id": "2",
+      "titulo": "era formiha 2",
+      "descricao": "fdjvejndfjkwefkjncirnh rehker",
+      "duracao": "200 minutos",
+      "imagem": "https://image.tmdb.org/t/p/original/yiLqv1gwBENjbqTAdPxW4LhX6aA.jpg"
+    },
+    {
+      "id": "3",
+      "titulo": "americana",
+      "descricao": "ulyima eu te matoo",
+      "duracao": "2000horas",
+      "imagem": "https://th.bing.com/th/id/R.1a29b4fbbaaa0294e3e04eed02ade21e?rik=ua3Z%2bwkorghNiQ&pid=ImgRaw&r=0"
+    },
+    {
+      "id": "4",
+      "titulo": "era das formigas",
+      "descricao": "uma sxjschsajnasxnmjsdwjdhxanxmbzcjqwhdjsb skcafue",
+      "duracao": "120 minutos",
+      "imagem": "https://image.tmdb.org/t/p/original/yiLqv1gwBENjbqTAdPxW4LhX6aA.jpg"
+    },
+    {
+      "id": "5",
+      "titulo": "era formiha 2",
+      "descricao": "fdjvejndfjkwefkjncirnh rehker",
+      "duracao": "200 minutos",
+      "imagem": "https://image.tmdb.org/t/p/original/yiLqv1gwBENjbqTAdPxW4LhX6aA.jpg"
+    },
+    {
+      "id": "6",
       "titulo": "americana",
       "descricao": "ulyima eu te matoo",
       "duracao": "2000horas",

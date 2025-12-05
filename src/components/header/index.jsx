@@ -1,11 +1,12 @@
 import { Container, LinksNavigation, LogoContainer, NavContainer } from "./style";
-import { useActionData, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import logo from "../../assets/logo.jpg"
 import { SignOutIcon } from "@phosphor-icons/react";
 
 
 export function HeaderP() {
     const navigate= useNavigate()
+    
     function ClicouBotão() {
         navigate('/erro')
     }

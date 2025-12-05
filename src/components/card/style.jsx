@@ -4,7 +4,7 @@ export const Container = styled.div`
   font-size: 10px;
 
   color:#254aee;
-  width: auto;
+  width: 250px;
 
   height: auto;
   margin-top:200px;

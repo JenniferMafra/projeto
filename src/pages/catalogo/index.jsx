@@ -28,6 +28,7 @@ export function Catalogo(){
      function Abrirfilme(id){
         navigate(`/filme/${id}`)
       }
+      
        function AdicionarFilme(){
         navigate(`/AdicionarFilme`)
       }
