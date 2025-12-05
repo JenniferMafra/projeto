@@ -55,6 +55,7 @@ export function FilmeId(){
         <Div>
           <HeaderP/>
         <Container>
+            <iframe width="853" height="480" src={`https://www.youtube.com/embed/${filme.Teaser}`} title="O Poderoso Chefão | Especial 50 anos | Trailer Legendado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div>
             <img src={filme.imagem} alt="" />
         <h2><strong>{filme.titulo}</strong> <br></br><br></br>Sinopse:<br></br>{filme.descricao}<br></br><br></br><p>Duração:{filme.duracao}</p></h2>
